@@ -7,9 +7,9 @@ ALU ET BANC DE REGISTRES / complet.
 
 CONTROLLER /  non complet.
               - Load Store 
-              - SP Adress
+              - Shift, Add, Sub, Move
               
-ASSEMBLEUR / en cours.
+ASSEMBLEUR / complet.
 
 PRESENTATION / en cours.
 
