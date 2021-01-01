@@ -26,6 +26,7 @@
     </tool>
     <tool name="Constant">
       <a name="facing" val="south"/>
+      <a name="width" val="32"/>
       <a name="value" val="0x0"/>
     </tool>
   </lib>
@@ -377,12 +378,12 @@
     <comp lib="1" loc="(450,230)" name="AND Gate">
       <a name="width" val="32"/>
       <a name="label" val="ANDD"/>
-      <a name="labelfont" val="Segoe UI Black bold 16"/>
+      <a name="labelfont" val="Dialog bold 16"/>
     </comp>
     <comp lib="1" loc="(460,310)" name="XOR Gate">
       <a name="width" val="32"/>
       <a name="label" val="EOR"/>
-      <a name="labelfont" val="Segoe UI Black bold 16"/>
+      <a name="labelfont" val="Dialog bold 16"/>
     </comp>
     <comp lib="3" loc="(440,390)" name="Shifter">
       <a name="width" val="32"/>
@@ -430,7 +431,7 @@
     <comp lib="1" loc="(460,950)" name="AND Gate">
       <a name="width" val="32"/>
       <a name="label" val="TST"/>
-      <a name="labelfont" val="Segoe UI Black bold 16"/>
+      <a name="labelfont" val="Dialog bold 16"/>
     </comp>
     <comp lib="3" loc="(450,1030)" name="Subtractor">
       <a name="width" val="32"/>
@@ -449,12 +450,12 @@
     <comp lib="1" loc="(460,1270)" name="OR Gate">
       <a name="width" val="32"/>
       <a name="label" val="ORR"/>
-      <a name="labelfont" val="Segoe UI Black bold 16"/>
+      <a name="labelfont" val="Dialog bold 16"/>
     </comp>
     <comp lib="1" loc="(500,1440)" name="AND Gate">
       <a name="width" val="32"/>
       <a name="label" val="BIC"/>
-      <a name="labelfont" val="Segoe UI Black bold 16"/>
+      <a name="labelfont" val="Dialog bold 16"/>
     </comp>
     <comp lib="1" loc="(440,1460)" name="NOT Gate">
       <a name="width" val="32"/>
