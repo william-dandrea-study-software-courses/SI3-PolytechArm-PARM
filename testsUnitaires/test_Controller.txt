@@ -1,5 +1,5 @@
 # Test vector for Controller.circ
-Inst[16]         Flags[4] Clk Reset Carry DP_Shift Imm32_Enable Imm5[5] Imm32[32]                        ALU_Opcode[4] Rm[3] Rn[3] Rd[3] RAM_Addr[32]                     Load Store PC[8]
+Inst[16]      Flags[4]   Clk Reset Carry DP_Shift Imm32_Enable Imm5[5] Imm32[32]                        ALU_Opcode[4] Rm[3] Rn[3] Rd[3] RAM_Addr[32]                     Load Store PC[8]
 
 # SHIFTADDSUBMOV
 
