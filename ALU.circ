@@ -170,9 +170,9 @@
     <wire from="(1620,790)" to="(1620,830)"/>
     <wire from="(1180,500)" to="(1340,500)"/>
     <wire from="(780,1020)" to="(850,1020)"/>
-    <wire from="(230,1390)" to="(490,1390)"/>
     <wire from="(1060,760)" to="(1340,760)"/>
     <wire from="(1010,710)" to="(1340,710)"/>
+    <wire from="(430,1390)" to="(500,1390)"/>
     <wire from="(1150,1550)" to="(1170,1550)"/>
     <wire from="(1100,960)" to="(1100,980)"/>
     <wire from="(850,800)" to="(850,1020)"/>
@@ -323,6 +323,7 @@
     <wire from="(830,780)" to="(1340,780)"/>
     <wire from="(1390,1240)" to="(1390,1330)"/>
     <wire from="(1330,460)" to="(1330,530)"/>
+    <wire from="(230,1390)" to="(400,1390)"/>
     <wire from="(1150,850)" to="(1340,850)"/>
     <wire from="(1000,700)" to="(1000,980)"/>
     <wire from="(1050,1330)" to="(1170,1330)"/>
@@ -513,10 +514,6 @@
     </comp>
     <comp lib="3" loc="(540,1290)" name="Multiplier">
       <a name="width" val="32"/>
-    </comp>
-    <comp lib="1" loc="(550,1370)" name="AND Gate">
-      <a name="width" val="32"/>
-      <a name="negate1" val="true"/>
     </comp>
     <comp lib="1" loc="(530,1430)" name="NOT Gate">
       <a name="width" val="32"/>
@@ -767,6 +764,12 @@
       <a name="width" val="4"/>
       <a name="label" val="cdp"/>
     </comp>
+    <comp lib="1" loc="(550,1370)" name="AND Gate">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="1" loc="(430,1390)" name="NOT Gate">
+      <a name="width" val="32"/>
+    </comp>
   </circuit>
   <circuit name="Overflow_Additionneur">
     <a name="circuit" val="Overflow_Additionneur"/>
@@ -944,23 +947,28 @@
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
+    <wire from="(480,290)" to="(540,290)"/>
+    <wire from="(520,250)" to="(520,260)"/>
+    <wire from="(170,210)" to="(400,210)"/>
+    <wire from="(300,310)" to="(400,310)"/>
+    <wire from="(540,400)" to="(650,400)"/>
+    <wire from="(140,410)" to="(240,410)"/>
     <wire from="(280,410)" to="(500,410)"/>
     <wire from="(520,420)" to="(520,460)"/>
-    <wire from="(110,140)" to="(430,140)"/>
-    <wire from="(450,260)" to="(480,260)"/>
-    <wire from="(480,260)" to="(480,390)"/>
+    <wire from="(540,250)" to="(540,290)"/>
+    <wire from="(430,140)" to="(430,240)"/>
+    <wire from="(480,290)" to="(480,390)"/>
+    <wire from="(170,310)" to="(260,310)"/>
+    <wire from="(520,250)" to="(540,250)"/>
     <wire from="(480,390)" to="(500,390)"/>
     <wire from="(400,270)" to="(400,310)"/>
     <wire from="(400,210)" to="(400,250)"/>
+    <wire from="(280,140)" to="(430,140)"/>
     <wire from="(400,270)" to="(410,270)"/>
     <wire from="(400,250)" to="(410,250)"/>
-    <wire from="(430,220)" to="(430,240)"/>
-    <wire from="(430,140)" to="(430,190)"/>
+    <wire from="(110,140)" to="(250,140)"/>
     <wire from="(520,460)" to="(650,460)"/>
-    <wire from="(170,210)" to="(400,210)"/>
-    <wire from="(170,310)" to="(400,310)"/>
-    <wire from="(540,400)" to="(650,400)"/>
-    <wire from="(140,410)" to="(240,410)"/>
+    <wire from="(450,260)" to="(520,260)"/>
     <comp lib="0" loc="(170,210)" name="Pin">
       <a name="width" val="32"/>
       <a name="label" val="B"/>
@@ -981,9 +989,6 @@
     <comp lib="3" loc="(540,400)" name="Adder">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="1" loc="(430,220)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
     <comp lib="0" loc="(650,400)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -999,8 +1004,12 @@
       <a name="output" val="true"/>
       <a name="label" val="Carry_out"/>
     </comp>
-    <comp lib="3" loc="(450,260)" name="Subtractor">
+    <comp lib="3" loc="(450,260)" name="Adder">
       <a name="width" val="32"/>
     </comp>
+    <comp lib="3" loc="(300,310)" name="Negator">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="1" loc="(280,140)" name="NOT Gate"/>
   </circuit>
 </project>
