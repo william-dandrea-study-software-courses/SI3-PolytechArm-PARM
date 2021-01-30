@@ -1,3 +1,0 @@
-# Test vector for Controller.circ
-
-Instruction[16]	Enable[1]    Rn[3]	Rd[3]	Rm[3]	ALU_Opcode[4]	Flags_Update_Mask[4]

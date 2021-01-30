@@ -1,10 +1,16 @@
-# P-ARM : Polytech ARM
+# PARM
 
-In this project, we tried to recompose an simplified ARM processor with the open-source software Logisim
+PLANNING PROJET PARM:
+https://docs.google.com/spreadsheets/d/1YkHqiJ0XEDhe_I4bV5uQFyyVcEDD0d3Zy9wRoqBbg3w/edit#gid=0
 
+ALU ET BANC DE REGISTRES / complet.
 
-# Contributors :
-- Chenzhou Liao
-- D'Andrea William
-- Khayati Hiba
-- Prince Jules
+CONTROLLER /  non complet.
+              - Load Store 
+              - Shift, Add, Sub, Move
+              
+ASSEMBLEUR / complet.
+
+PRESENTATION / en cours.
+
+TESTS/ en cours.

@@ -1,4 +1,4 @@
-# Test vector for Controller.circ
+# Test vector for Shift_Add_Sub_Mov.circ
 
 Instruction[16]	      Enable[1]    Rn[3]	Rd[3]	Rm[3]	ALU_Opcode[4]	Flags_Update_Mask[4] Imm5[5] Imm32_Enable[1]  Imm32[32]                          Carry
 0000001011011101      1            011      101     000     0010            1110                 01011   0                00000000000000000000000000000000   0       #LSL im
